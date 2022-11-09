@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZERO</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" media="screen and (max-width: 1142px)" href="phone.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <a href="#home"> <img src="logo.png" alt="zero.com"></a>
+        </div>
+        <ul>
+            <li class="nav"><a href="#home">Home</a></li>
+            <li class="nav"><a href="#services-container"> Services</a></li>
+            <li class="nav"><a href="#contact">Order now</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="primary"> Welcome to ZERO</h1>
+        <p>
+            We offer you the best food delivery platform where you can get your favourite foods
+        </p>
+        <p>
+            And at a very dicounted price!
+        </p>
+        <button input="text" id="btn"><a href="#contact">Order Now</a>  </button>
+    </section> 
+    <section id="services-container">
+        <h1 class="prem center">
+            Our Services
+        </h1>
+        <div class="services">
+            <div class="box">
+                <img src="pizza.png">
+                <h2 class="secondary center">
+                    Food Catering
+                </h2>
+                <p class="content"> There a more than 50 varities of fast food, from Chinese to Italian, evrything is available.</p>
+            </div>
+            <div class="box">
+                <img src="breakfast.png">
+                <h2 class="secondary center">
+                    Bulk Ordering
+                </h2>
+                <p class="content">Option of bulk ordering is also available, ordering food in bulk will open gates for a number of discounts.</p>
+            </div>
+            <div class="box">
+                <img src="delivery.png">
+                <h2 class="secondary center">
+                    Food delivery
+                </h2>
+                <p class="content">We offer you the facility of food delivery across the city at a very low delivery cost. Our delivery service is available 24*7</p>
+            </div>
+        </div>
+            
+          
+    </section>
+    <section id="contact">
+        <h1 class="prem center">Order Now</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="number" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="items">Items you want: </label>
+                    <textarea name="items" id="items" cols="30" rows="10" placeholder="Name of the items you want x quantity"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="foot">Copyright &copy; www.zero.com | All rights reserved</footer>
+    
+    
+</body>
+</html>
